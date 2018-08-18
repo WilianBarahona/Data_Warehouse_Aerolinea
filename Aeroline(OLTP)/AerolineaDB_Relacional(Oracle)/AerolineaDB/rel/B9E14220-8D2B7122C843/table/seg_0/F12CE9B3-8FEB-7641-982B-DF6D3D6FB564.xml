@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F12CE9B3-8FEB-7641-982B-DF6D3D6FB564" name="ClaseSocial">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:27:29 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idClaseSocial" id="79CA65F9-2098-17BD-FB96-4EE26B0F8E4A">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:33:05 UTC</createdTime>
+<commentInRDBMS>Codigo de clase social</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreClaseSocial" id="73FFDE1B-D329-27B5-258F-7355B0ADD47E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:33:05 UTC</createdTime>
+<commentInRDBMS>Nombre de la clase social</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C514909-BD12-2027-68F9-7C6B0401C863" name="ClaseSocial_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:33:05 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79CA65F9-2098-17BD-FB96-4EE26B0F8E4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6F918CD-E6C4-9A0D-E5C6-AC06A049A452" containerWithKeyObject="6572DEB9-7D0E-20A4-BC69-3DC0A573F0E6" localFKIndex="E38F6983-0010-12CE-79B0-5F73368D86EB" name="PermisoXCargo_Permiso_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-27 21:01:12 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>Permiso</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60E47676-7A64-C620-DDB8-C3F72CDB07D8</referredTableID>
+<keyObject>A4F23662-CE2A-54F1-6059-BE09D5BC224D</keyObject>
+<referredKeyID>A4F23662-CE2A-54F1-6059-BE09D5BC224D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPermiso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA9D8649-22FE-6132-4269-6F9E8345D92A" name="EstadoCivil">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:47:41 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstadoCivil" id="6975132A-DE0F-65C9-6257-4AE56EA0FF03">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:48:22 UTC</createdTime>
+<commentInRDBMS>Codigo del estado civil</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreEstadoCivil" id="81C4C375-9FBA-89DC-7C95-05BE4148ABD1">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:48:22 UTC</createdTime>
+<commentInRDBMS>Nombre del estado cilvil(ejemplo casado, viudo...)</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02AFE756-3C4D-74D5-9B99-BC9CBA9FCF81" name="EstadoCivil_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:50:24 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6975132A-DE0F-65C9-6257-4AE56EA0FF03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

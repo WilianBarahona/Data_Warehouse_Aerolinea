@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB9F25B4-A4D8-A11B-D2E3-D21EA10942E7" name="FacturaDetalle">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:27:15 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_49</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Factura_idFactura" id="35D90453-E825-3647-D453-4AB12B8C4C3D">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:33:37 UTC</createdTime>
+<commentInRDBMS>Llave foranea de la relacion de facturaDetalle y factura que almacena el id de factura</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C42C1015-C205-CDAC-FA4C-E8D572AC3094" referredColumn="1B48249A-DA47-ABB2-A2A4-E998A074BDCF"/>
+</associations>
+</Column>
+<Column name="Vuelo_idVuelo" id="6C8432ED-EDA6-381D-960B-907A9939BBA6">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:33:47 UTC</createdTime>
+<commentInRDBMS>LLave foranea de la relacion entre vuelo y factura detalle que almacena el vuelo </commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3B0CC9B-C76F-3244-A1B1-0BD8B99879EE" referredColumn="670FF593-BD3A-A4E6-D96A-83D3FF2C61F3"/>
+</associations>
+</Column>
+<Column name="Pasajero_idPasajero" id="11D0E55C-5BBB-0183-0181-54DB218D4558">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:34:09 UTC</createdTime>
+<commentInRDBMS>Llave forane  de la relacion entre pasajero y factura detalle que almacena el pasajero</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3674EB16-676A-640E-9D6A-ACC07723B100" referredColumn="53FD197C-E147-F7F0-270B-B6A5CC7967AF"/>
+</associations>
+</Column>
+<Column name="Asiento_idAsiento" id="272B3B95-CF0A-C36F-E708-83D4322B7785">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:34:29 UTC</createdTime>
+<commentInRDBMS>Llave foranea de la relacion entre asiento y factura detalle donde se almacena el asiento el cual esta apartado</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C0A081D-12C3-4266-7CE3-5C28FDF41894" referredColumn="CD22CF43-E14C-1385-6C99-878BB2DDEC9C"/>
+</associations>
+</Column>
+<Column name="ticket" id="612E4344-77C2-309A-AB0E-03F791913FB6">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:35:32 UTC</createdTime>
+<commentInRDBMS>Almacena el numero de ticket del pasajero</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento" id="80E0D08F-B43F-20F6-F8C9-FB7B3734A79E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:35:32 UTC</createdTime>
+<commentInRDBMS>Almacena el desuceno del ticket o pasaje</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recargoTotalMaletas" id="C0BBA2C6-DB83-2C98-F274-B72B8C2A6628">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 17:00:49 UTC</createdTime>
+<commentInRDBMS>Recargo Total por maletas extras o exceso de peso</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F603F36-87AF-72BE-4B8D-C46E09A2186A" name="FacturaDetalle_Factura_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:33:37 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35D90453-E825-3647-D453-4AB12B8C4C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D997F30-B334-B369-901E-141AEEAED6D9" name="FacturaDetalle_Vuelo_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:33:47 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C8432ED-EDA6-381D-960B-907A9939BBA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3387EC0F-DDFC-A1B9-40F5-E896E8DB7A3E" name="FacturaDetalle_Pasajero_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:34:09 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D0E55C-5BBB-0183-0181-54DB218D4558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09901C7A-4DFA-34C4-73F2-26FE1F0CA884" name="FacturaDetalle_Asiento_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:34:29 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="272B3B95-CF0A-C36F-E708-83D4322B7785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

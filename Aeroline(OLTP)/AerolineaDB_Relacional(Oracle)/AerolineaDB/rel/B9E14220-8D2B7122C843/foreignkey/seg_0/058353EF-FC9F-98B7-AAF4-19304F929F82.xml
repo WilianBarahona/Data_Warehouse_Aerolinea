@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="058353EF-FC9F-98B7-AAF4-19304F929F82" containerWithKeyObject="877A0B8B-D143-C67D-6FC6-0C35574621C8" localFKIndex="2160050C-6DA6-7AC3-8E38-88E076FE71A2" name="FacturaxFormaPago_FormaPago_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:22:30 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>FormaPago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2CE49FBA-5668-3AE1-50F5-AE277855CAD5</referredTableID>
+<keyObject>5ED097B7-0BA8-C575-D596-0A01E07C5DA6</keyObject>
+<referredKeyID>5ED097B7-0BA8-C575-D596-0A01E07C5DA6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idFormaPago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

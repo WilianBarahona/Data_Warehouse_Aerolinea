@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AFE5E8E-4920-C303-4393-1CA63E206D91" name="TripulanteXVuelo">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:50:03 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tripulante_idTripulante" id="F3F59FDA-5125-3BF4-C9E2-B6C239E095CB">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:51:47 UTC</createdTime>
+<commentInRDBMS>Codigo Tripulante</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B6792B5-925C-4C30-8FC5-39E276CF1B17" referredColumn="0EE7EA98-655A-6FA7-81C6-02A047F7F261"/>
+</associations>
+</Column>
+<Column name="Vuelo_idVuelo" id="C9BCD125-4C80-3FED-8A4C-8762334FD460">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:59:48 UTC</createdTime>
+<commentInRDBMS>Codigo de vuelo en el que esta dicho tripulante</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC8F6EF7-76F2-192E-A4D8-8F75A954C195" referredColumn="670FF593-BD3A-A4E6-D96A-83D3FF2C61F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="150EDB3C-4563-5C18-84C1-3200410783F7" name="TripulanteXVuelo_Tripulante_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:51:47 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3F59FDA-5125-3BF4-C9E2-B6C239E095CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0F3AF69-A0C9-FF46-9A76-14D9B95785A5" name="TripulanteXVuelo_Vuelo_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:59:48 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9BCD125-4C80-3FED-8A4C-8762334FD460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

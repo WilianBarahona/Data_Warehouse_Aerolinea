@@ -1,0 +1,8 @@
+Configuraciones previas y aspectos a tomar en cuenta antes de realizar
+la replicacion
+----------------------------------------------------------------------
+1) Instalar dos instancias de Sql Server en caso de hacer la replica en un solo equipo
+2) Desactivar Windows defender y el Firewall 
+3) Crear una carpeta compartida para todos los usuarios del equipo
+
+

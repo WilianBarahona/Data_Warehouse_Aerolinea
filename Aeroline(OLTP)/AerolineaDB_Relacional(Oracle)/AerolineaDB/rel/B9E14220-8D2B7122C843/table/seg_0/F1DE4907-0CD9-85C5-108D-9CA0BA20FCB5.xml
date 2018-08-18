@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1DE4907-0CD9-85C5-108D-9CA0BA20FCB5" name="DetalleVuelo">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 07:10:19 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vuelo_idVuelo" id="51AEFF58-7F7F-5156-6CEC-CE88F13911A7">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 07:10:52 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D89127FA-395C-6DE2-FB40-79BDA1246184" referredColumn="670FF593-BD3A-A4E6-D96A-83D3FF2C61F3"/>
+</associations>
+</Column>
+<Column name="fechaHoraPartida" id="A1FB9A57-D887-7E39-A000-332CDBED1215">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 07:13:08 UTC</createdTime>
+<commentInRDBMS>Fecha Hora partida real del vuelo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaHoraLlegada" id="20CD45E5-0F7B-6A31-CC03-319BD9DABBFE">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 07:13:08 UTC</createdTime>
+<commentInRDBMS>Fecha Hora real de la llegada del vuelo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idDestinoOrigenRuta" id="E6C03B8C-3E6E-2F82-3D17-21AFBDF6D0AE">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 22:29:50 UTC</createdTime>
+<commentInRDBMS>Almacena el id Destino origen ruta&lt;br/&gt;</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8BC219C-DD03-AF9B-90CE-5B20E482ADE5" referredColumn="14B3C05C-61C8-8420-6ADA-2DA748A9DFAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25B43D49-ABAD-87BC-75FE-53FB03ACB695" name="DetalleVuelo_Vuelo_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 07:10:52 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51AEFF58-7F7F-5156-6CEC-CE88F13911A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77EC4D15-2E3C-FB49-55FA-153531D5C783" name="DetalleVuelo_DestinoOrigenRuta_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 22:29:50 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C03B8C-3E6E-2F82-3D17-21AFBDF6D0AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

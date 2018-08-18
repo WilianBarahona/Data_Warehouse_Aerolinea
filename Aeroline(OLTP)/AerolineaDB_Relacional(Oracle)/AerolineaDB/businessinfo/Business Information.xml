@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="2A9B2D70-7016-536A-2B32-2678D2A6551D">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:23:39 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

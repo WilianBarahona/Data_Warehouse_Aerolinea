@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23528B1A-0A30-E9D9-59E3-EE8BA7402D4B" name="TipoEquipaje">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:44:52 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTipoEquipaje" id="91D9FFF6-3C63-03B3-E65C-D5C411A86C30">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:45:32 UTC</createdTime>
+<commentInRDBMS>Codigo del tipo de equipaje</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoEquipaje" id="AB9EA345-496B-0541-4AC9-8D429BDD01AA">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:45:32 UTC</createdTime>
+<commentInRDBMS>Almacena el tipo de equipaje ejemplo: equipaje de mano...</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoMaximo" id="B16FAB2F-7001-E016-0C7F-E686EDF66C55">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:25:45 UTC</createdTime>
+<commentInRDBMS>Almacena el peso maximo permitido para este tipo de maleta en KG</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dimencionLinealMaxima" id="730F5837-46A7-DFEA-E12D-323196B0C4AC">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:25:45 UTC</createdTime>
+<commentInRDBMS>Almacena la dimencion Lineal maxima del equipaje en Centimetros CM</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RecargoXkG" id="D9BFB740-E11A-FF40-04E0-02D18608F4A1">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:32:38 UTC</createdTime>
+<commentInRDBMS>Recargo del equipaje por KG, </commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RecargoXCM" id="A5BEB691-F213-E864-75FB-6690414F95B5">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-04 16:37:41 UTC</createdTime>
+<commentInRDBMS>Recargo de equipaje por CM. la suma se calcula como la suma de largo+ancho+espesor</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAE66CB7-9160-51CB-6C45-918B1E3F456F" name="TipoEquipaje_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:45:32 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91D9FFF6-3C63-03B3-E65C-D5C411A86C30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

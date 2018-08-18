@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="19CD9905-17C7-E1E1-C623-E9545E9B2DB7" mainViewID="CB199A4F-B0B9-AAB2-334B-0EA2D3493CB4">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:23:35 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

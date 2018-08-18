@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0355B74-4585-007E-9F6F-1289D9694B7F" containerWithKeyObject="D0D7CA7E-B824-AC15-A7CD-FA03BB289E78" localFKIndex="729CDE82-9C20-61D5-B337-9DF757B4A20C" name="Asiento_Avion_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:13:32 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>Avion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DC2F04F-9033-3A2B-2EC3-4DDBF195621C</referredTableID>
+<keyObject>88D6A23A-30CC-8D9A-D3F3-BEB938B0B27B</keyObject>
+<referredKeyID>88D6A23A-30CC-8D9A-D3F3-BEB938B0B27B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAvion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

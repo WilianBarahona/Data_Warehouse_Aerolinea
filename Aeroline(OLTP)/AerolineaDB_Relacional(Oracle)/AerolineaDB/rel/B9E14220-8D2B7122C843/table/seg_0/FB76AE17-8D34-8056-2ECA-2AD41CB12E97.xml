@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB76AE17-8D34-8056-2ECA-2AD41CB12E97" name="Anticipo">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:51:34 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAnticipo" id="6E73BCF9-EEB0-14CD-3666-A77D85689C0F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:58:56 UTC</createdTime>
+<commentInRDBMS>Codigo de anticipo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="086B31F3-E5D5-038A-CBDE-5EFBE8D82A00">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:15:38 UTC</createdTime>
+<commentInRDBMS>Monto del anticipo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="86831FEE-FC1F-1E92-60E1-16B3B78AE141">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:15:38 UTC</createdTime>
+<commentInRDBMS>Descripcion del anticipo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="AF808C1D-1A9C-8E1C-78A5-D4EE93C72410">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:15:38 UTC</createdTime>
+<commentInRDBMS>Estado del anticipo si fue o no liquidado</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="B42C3BE1-1C28-B18E-DAA2-E77CF0EE7A6F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:15:38 UTC</createdTime>
+<commentInRDBMS>Fecha del anticipo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_idEmpleado" id="DD6167B0-753D-C499-5431-D7C20E08191F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:15:50 UTC</createdTime>
+<commentInRDBMS>LLave forane de la relacion entre empleado y anticipo que almacena e id de empleado al que se la a realizado dicho anticipo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32978286-70E5-83D6-FA8E-37288F328641" referredColumn="C5B4CA2A-3CED-377E-3D5F-1F3E417BE39D"/>
+</associations>
+</Column>
+<Column name="Planilla_idPlanilla" id="FD1F3927-E200-48D8-276B-D9A3B4B6834A">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:19:07 UTC</createdTime>
+<commentInRDBMS>LLave foranea de la relacion de planilla con anticipo que almacena a que planilla pertenece dicho anticipo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A635E4C-2069-D09B-7E6B-B35CAE70CE9D" referredColumn="D08E8446-B1E0-6D59-AF77-3955121DDA94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A85F7112-4E84-468E-5BAD-88FEB38F4A3E" name="Anticipo_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:59:02 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E73BCF9-EEB0-14CD-3666-A77D85689C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0252C70-C46F-D5DA-D991-AA281EA262F5" name="Anticipo_Empleado_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:15:49 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD6167B0-753D-C499-5431-D7C20E08191F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4F7FE1E-DF70-45EA-2648-77CC3E506121" name="Anticipo_Planilla_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:19:07 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD1F3927-E200-48D8-276B-D9A3B4B6834A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

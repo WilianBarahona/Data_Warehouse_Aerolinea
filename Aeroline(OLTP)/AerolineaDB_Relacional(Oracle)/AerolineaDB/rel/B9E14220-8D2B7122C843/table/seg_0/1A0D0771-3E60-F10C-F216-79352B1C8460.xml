@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A0D0771-3E60-F10C-F216-79352B1C8460" name="TipoMaletaClaseSocial">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:54:12 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ClaseSocial_idClaseSocial" id="D5AC881F-9C16-03FD-5B49-9A968E76EB45">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:55:31 UTC</createdTime>
+<commentInRDBMS>Codigo de la clase social</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBF475C1-C7AE-1B39-1233-D71559D3C111" referredColumn="79CA65F9-2098-17BD-FB96-4EE26B0F8E4A"/>
+</associations>
+</Column>
+<Column name="TipoEquipaje_idTipoEquipaje" id="E6C348CF-F7A2-5C24-0607-B67C7CD4208C">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:55:38 UTC</createdTime>
+<commentInRDBMS>Codigo del tipo de equipaje</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0D21D82-04F6-7A55-BA3D-CC3592DEEC63" referredColumn="91D9FFF6-3C63-03B3-E65C-D5C411A86C30"/>
+</associations>
+</Column>
+<Column name="cantidadMaxima" id="F8C843F1-527C-8065-1B07-D648965105DF">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 21:03:11 UTC</createdTime>
+<commentInRDBMS>Cantidad maxima de maletas de un determinado tipo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD5F4961-833A-05F8-0D37-02D62C6BF349" name="TipoMaletaClaseSocial_ClaseSocial_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:55:31 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5AC881F-9C16-03FD-5B49-9A968E76EB45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89F0CDE8-22CE-A386-4D08-B3B31EFD6AA3" name="TipoMaletaClaseSocial_TipoEquipaje_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 20:55:38 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C348CF-F7A2-5C24-0607-B67C7CD4208C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

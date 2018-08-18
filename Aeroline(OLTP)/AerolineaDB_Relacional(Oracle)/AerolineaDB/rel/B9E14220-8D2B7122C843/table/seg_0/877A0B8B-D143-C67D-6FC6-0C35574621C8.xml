@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="877A0B8B-D143-C67D-6FC6-0C35574621C8" name="FacturaxFormaPago">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:20:13 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_55</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Factura_idFactura" id="286E459C-CA7C-E7D2-E659-C34D70071FAD">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:22:24 UTC</createdTime>
+<commentInRDBMS>Codigo de factura</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50534F6C-FE85-66B3-DCE2-70A208B28FA5" referredColumn="1B48249A-DA47-ABB2-A2A4-E998A074BDCF"/>
+</associations>
+</Column>
+<Column name="FormaPago_idFormaPago" id="B4EBA788-FCBD-6379-7550-9058D1A74E17">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:22:30 UTC</createdTime>
+<commentInRDBMS>Codigo de forma de pago</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="058353EF-FC9F-98B7-AAF4-19304F929F82" referredColumn="21E1E7E3-553A-9DCD-7DFB-11F146C746CF"/>
+</associations>
+</Column>
+<Column name="monto" id="477FC282-6ED7-D197-28AF-B2D4BD8A9F06">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:23:05 UTC</createdTime>
+<commentInRDBMS>Monto pagado con dicha forma de pago</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9512FAE-7C64-1A79-58B6-1A538DF85C9A" name="FacturaxFormaPago_Factura_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:22:24 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="286E459C-CA7C-E7D2-E659-C34D70071FAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2160050C-6DA6-7AC3-8E38-88E076FE71A2" name="FacturaxFormaPago_FormaPago_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:22:30 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EBA788-FCBD-6379-7550-9058D1A74E17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0782B5B-0D7C-2CD9-13C4-2CE737B53483" containerWithKeyObject="7FA7C351-EECC-E9CA-A735-D1A1545D2CEB" localFKIndex="16F79DAC-3B46-05EE-F479-7DF9959AAFF5" name="EmpleadoXPlanilla_Planilla_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:20:11 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>Planilla</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C7D1B25-89D3-FAF7-F893-1A0157A6E789</referredTableID>
+<keyObject>95A2AA31-2C48-E4D8-7C49-2276ABF6991D</keyObject>
+<referredKeyID>95A2AA31-2C48-E4D8-7C49-2276ABF6991D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPlanilla</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

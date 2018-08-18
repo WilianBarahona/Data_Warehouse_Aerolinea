@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E79B064E-5F4E-380A-D7A0-AFE48C5D6873" name="Deduccion">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:51:40 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDeduccion" id="FDB76741-5C91-9F52-8FC7-C4C1F9230751">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:58:02 UTC</createdTime>
+<commentInRDBMS>Codigo Deduccion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoDeduccion_idTipoDeduccion" id="2DC31601-89D7-EB20-CDE6-D5DF30A4DA43">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:07:35 UTC</createdTime>
+<commentInRDBMS>Llave forane de la relacion entre deduccion y tipo de deccion que almacena e id del tipo de deduccion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E5A282D-74B9-C2A4-036C-7E90DB7970A9" referredColumn="D5168BB2-ED61-687A-0CE9-78604977FDB6"/>
+</associations>
+</Column>
+<Column name="monto" id="7AF7D863-6FB5-B956-442B-08F9F7B2D7E9">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:18:20 UTC</createdTime>
+<commentInRDBMS>Monto de la deduccion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="625DC4D5-8F25-C415-8750-CC6C94B0CBCD">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:37:41 UTC</createdTime>
+<commentInRDBMS>Fecha en la que se realizo la deduccion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="E0438C81-02A1-6A61-1961-5FB2EDE3DD45">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:37:41 UTC</createdTime>
+<commentInRDBMS>Estado de la deduccion si se ha pagado o no </commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_idEmpleado" id="0A0C12A1-7157-761F-9D47-757CD995940F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:35:17 UTC</createdTime>
+<commentInRDBMS>LLave forane de la relacion entre empleado y deducion que almacena el id de empleado al que se le ha realizado dicha deduccion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F66A7EF-BC56-11A5-3D1D-731498E42D02" referredColumn="C5B4CA2A-3CED-377E-3D5F-1F3E417BE39D"/>
+</associations>
+</Column>
+<Column name="Planilla_idPlanilla" id="E748FDB6-1173-5EA4-6238-C7BCD47A5517">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:39:37 UTC</createdTime>
+<commentInRDBMS>LLave forane de la relacion entre planilla y deduccion que almacena la planilla a la que pertenece la deduccion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="964F70BF-32AB-0CB7-7E5D-D8F25B0FCC09" referredColumn="D08E8446-B1E0-6D59-AF77-3955121DDA94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EE098D9-A43B-9036-CD7D-702CAC028C59" name="Deduccion_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:58:02 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDB76741-5C91-9F52-8FC7-C4C1F9230751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B80CA426-86CD-7646-07CE-1BEB0D84A541" name="Deduccion_TipoDeduccion_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:07:35 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DC31601-89D7-EB20-CDE6-D5DF30A4DA43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2FFB88D-6E48-8975-58F6-4FEB424D6045" name="Deduccion_Empleado_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:35:17 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A0C12A1-7157-761F-9D47-757CD995940F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EAEF3A4-42C7-F5E9-3100-EBF5142E9FDA" name="Deduccion_Planilla_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:39:37 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E748FDB6-1173-5EA4-6238-C7BCD47A5517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15BD0F8B-D8A9-A17B-FDD6-9BA590D3FE5B" containerWithKeyObject="D0D7CA7E-B824-AC15-A7CD-FA03BB289E78" localFKIndex="2F38D120-01B3-0AB1-04B0-4AB51730B042" name="Asiento_ClaseSocial_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 16:50:23 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>ClaseSocial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F12CE9B3-8FEB-7641-982B-DF6D3D6FB564</referredTableID>
+<keyObject>7C514909-BD12-2027-68F9-7C6B0401C863</keyObject>
+<referredKeyID>7C514909-BD12-2027-68F9-7C6B0401C863</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idClaseSocial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

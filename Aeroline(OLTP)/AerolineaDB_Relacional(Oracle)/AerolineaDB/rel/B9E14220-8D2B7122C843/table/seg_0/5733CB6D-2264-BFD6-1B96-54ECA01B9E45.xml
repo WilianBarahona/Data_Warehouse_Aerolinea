@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5733CB6D-2264-BFD6-1B96-54ECA01B9E45" name="EmpleadoXCargo">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:33:19 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_idEmpleado" id="287304DB-0A57-6219-4926-68BFC7900C1F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:36:43 UTC</createdTime>
+<commentInRDBMS>Codigo del empleado</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D425CE85-8089-E562-680B-F9E490832316" referredColumn="C5B4CA2A-3CED-377E-3D5F-1F3E417BE39D"/>
+</associations>
+</Column>
+<Column name="Cargo_idCargo" id="BC4ED1EC-0152-1431-F2ED-6508BC72FA42">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:36:52 UTC</createdTime>
+<commentInRDBMS>Codigo del cargo que posee el empleado</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2BBA845-6856-BA58-01FD-7CA863C3AD4E" referredColumn="57FB6E50-B58C-F229-E64A-F3E9103A080E"/>
+</associations>
+</Column>
+<Column name="fechaNombramiento" id="F0442E7A-9A53-B0AB-2C3D-A1077B3E86A9">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:39:29 UTC</createdTime>
+<commentInRDBMS>Fecha en la que fue nombrado dicho empleado</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="2CF4C4A4-F9E1-C5D4-7BBC-89B225EEA10E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:39:29 UTC</createdTime>
+<commentInRDBMS>Estado del cargo si esta activo o inactivo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1887518B-04BD-16DA-7A42-93B174B80147" name="EmpleadoXCargo_Empleado_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:36:43 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="287304DB-0A57-6219-4926-68BFC7900C1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C29CDC76-8C10-5DCE-3D3A-1A2B9B111F0F" name="EmpleadoXCargo_Cargo_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 21:36:52 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC4ED1EC-0152-1431-F2ED-6508BC72FA42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+DESKTOP-ICGFKM3\MSQL_SERVER_1
+
+C:\Replicacion
+
+
+Request to run job from User sa refused because the job is already running from a request by Start Sequence 0
+
+This snapshot folder does not support pull subscriptions created at the Subscriber. It is not a network path or it is a drive letter mapped to a network path. To support both push and pull subscriptions, use a network path to refer to this folder.
+
+C:\Program Files\Microsoft SQL Server\MSSQL12.MSQL_SERVER_1\MSSQL\ReplData
+
+\\DESKTOP-ICGFKM3\repldata
+
+\\DESKTOP-ICGFKM3\Replica
+
+DESKTOP-ICGFKM3\Lenovo Thinkpad Edge

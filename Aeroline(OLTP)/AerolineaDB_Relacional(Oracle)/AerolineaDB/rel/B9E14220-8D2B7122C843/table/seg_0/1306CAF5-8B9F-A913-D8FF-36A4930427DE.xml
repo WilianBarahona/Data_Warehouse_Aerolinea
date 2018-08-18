@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1306CAF5-8B9F-A913-D8FF-36A4930427DE" name="Pasajero">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:44:57 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPasajero" id="53FD197C-E147-F7F0-270B-B6A5CC7967AF">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:45:16 UTC</createdTime>
+<commentInRDBMS>Codigo Pasajero</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_idPersona" id="AD72C340-8160-98D0-3586-410FD38B5C41">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:46:12 UTC</createdTime>
+<commentInRDBMS>Codigo de persona de donde se obtendra informacion como nombres, apellidos, correos, etc.</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9DD4F50-20B6-6109-4928-1C2B1D51D9EF" referredColumn="01F832F1-E1D2-04F9-4E5B-417FDB091F22"/>
+</associations>
+</Column>
+<Column name="fotoPerfil" id="FDD56D51-687B-996A-9B51-B23B5D7FD141">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:52:30 UTC</createdTime>
+<commentInRDBMS>Foto de perfil del pasajero</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroPasaporte" id="AF8516D3-B7EA-9FEE-F999-E7A33D4B2C74">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:52:30 UTC</createdTime>
+<commentInRDBMS>Numero de pasaporte del pasajer</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="721BC30D-4D95-832C-7692-1438140271F2" name="Pasajero_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:45:54 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53FD197C-E147-F7F0-270B-B6A5CC7967AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F227B52-82D0-B3BF-24B9-3D56487B6541" name="Pasajero__UN">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:46:36 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD72C340-8160-98D0-3586-410FD38B5C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59606874-7B90-7DC1-E128-9A3017CABCDA" name="Pasajero_Persona_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:46:12 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD72C340-8160-98D0-3586-410FD38B5C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

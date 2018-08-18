@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4459CEB-93B2-EBDE-EEAC-861A73696E3C" name="Vuelo">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:50:56 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVuelo" id="670FF593-BD3A-A4E6-D96A-83D3FF2C61F3">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:52:08 UTC</createdTime>
+<commentInRDBMS>Codigo Vuelo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaHoraPartida" id="6D53C947-7B29-5A88-E579-3D4CF2A241C3">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:00:22 UTC</createdTime>
+<commentInRDBMS>Fecha Hora en la que partio del origen</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaHoraLlegada" id="97ED415E-B5CA-117C-7C55-3ED13B733A6D">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:00:22 UTC</createdTime>
+<commentInRDBMS>Fecha Hora en la que llego al destino</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avion_idAvion" id="2AC4AA3D-0E7A-D003-F9AF-706AEE9E5AFA">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:18:08 UTC</createdTime>
+<commentInRDBMS>LLave forane de la relacion de vuelo y avion que almacena el avion de dicho vuelo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1F2F3C9-4A2D-1EAF-B78B-81A1059DBA25" referredColumn="C7327BB8-E224-D008-7DDE-4E03AAD13C6F"/>
+</associations>
+</Column>
+<Column name="Ruta_idRuta" id="EBE451B0-38BF-A35F-8D03-911B101CCB48">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:26:15 UTC</createdTime>
+<commentInRDBMS>Llave foranea de la relacion entre ruta y vuelo donde se almacena la ruta del vuelo</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78A2D102-4ECF-86AD-971B-D6987F66EA8C" referredColumn="F0EC9821-A6F2-9B09-647F-0B0FF4516A42"/>
+</associations>
+</Column>
+<Column name="TipoVuelo_idTipoVuelo" id="A589B228-25B0-F4C1-D483-BC56B2DF251D">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:04:51 UTC</createdTime>
+<commentInRDBMS>Llave foranea de la relacion de TipoVuelo y Vuelo donde se almacena el tipo de vuelo del vuelo como ser privado, comercial, carga, etc.</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8567556-DE7A-EB8C-2423-47B78D66F47A" referredColumn="B5364B70-03C9-FEEB-DADF-93F3632A8CAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB9F7901-CAC4-ECB1-FBEE-1C97B7AEF32E" name="Vuelo_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:52:08 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="670FF593-BD3A-A4E6-D96A-83D3FF2C61F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9E3395E-FC85-CB70-5114-88046042E674" name="Vuelo_Avion_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:18:08 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC4AA3D-0E7A-D003-F9AF-706AEE9E5AFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D697E88-904C-46C5-6755-8484C91B3E29" name="Vuelo_Ruta_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:26:15 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE451B0-38BF-A35F-8D03-911B101CCB48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDDC5A1A-9D72-4B50-0EA5-0759237F7EDE" name="Vuelo_TipoVuelo_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:04:51 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A589B228-25B0-F4C1-D483-BC56B2DF251D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

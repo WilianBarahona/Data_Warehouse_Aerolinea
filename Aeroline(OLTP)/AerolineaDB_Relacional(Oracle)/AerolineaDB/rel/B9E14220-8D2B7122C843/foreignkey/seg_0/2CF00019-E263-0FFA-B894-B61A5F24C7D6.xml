@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CF00019-E263-0FFA-B894-B61A5F24C7D6" containerWithKeyObject="678BC247-96A8-BF81-B3F4-4CFAD38322B4" localFKIndex="7666B118-6381-2DA8-EDCD-06BC45BB91AC" name="Persona_Genero_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:53:56 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>Genero</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>914A9FB1-AA20-7EC6-47E6-980D5E81A01D</referredTableID>
+<keyObject>92F6D3DE-E897-F465-1214-106259463D48</keyObject>
+<referredKeyID>92F6D3DE-E897-F465-1214-106259463D48</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idGenero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

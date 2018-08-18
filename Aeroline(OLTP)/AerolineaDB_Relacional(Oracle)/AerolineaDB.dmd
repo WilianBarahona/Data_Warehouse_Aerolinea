@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AerolineaDB" id="4C703892-6A1D-DC9E-04F1-FF986A120590" version="3.5">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:23:35 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4C703892-6A1D-DC9E-04F1-FF986A120590</designId>
+</OSDM_Design>

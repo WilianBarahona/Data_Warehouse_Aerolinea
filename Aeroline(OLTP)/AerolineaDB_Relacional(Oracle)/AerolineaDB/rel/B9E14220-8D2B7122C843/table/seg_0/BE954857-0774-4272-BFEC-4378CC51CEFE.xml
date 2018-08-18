@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE954857-0774-4272-BFEC-4378CC51CEFE" name="Tripulante">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:44:14 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTripulante" id="0EE7EA98-655A-6FA7-81C6-02A047F7F261">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:44:54 UTC</createdTime>
+<commentInRDBMS>Codigo de tripulante</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_idEmpleado" id="7DB8BDF3-400D-96C2-72C9-9821D4667F2F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:47:54 UTC</createdTime>
+<commentInRDBMS>Codigo de empleado de donde se sacara informacion extra</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1E2BBD3-DF49-C089-7BEA-A5507D7D0E8D" referredColumn="C5B4CA2A-3CED-377E-3D5F-1F3E417BE39D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4B0B83A-65CB-AAA5-5034-ABE680E854EE" name="Tripulante_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:44:54 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE7EA98-655A-6FA7-81C6-02A047F7F261"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3C3CCEA-9465-4BE9-7E6E-2E783F48F8CC" name="Tripulante__UN">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:46:28 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB8BDF3-400D-96C2-72C9-9821D4667F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05895A1A-FCED-783D-DC28-D58FA332427B" name="Tripulante_Empleado_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 03:47:54 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB8BDF3-400D-96C2-72C9-9821D4667F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

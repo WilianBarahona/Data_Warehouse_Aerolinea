@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1642554-6A95-43E9-6E5B-1595EB2B779D" containerWithKeyObject="E9564257-33B0-ABB7-371D-02E21A074E78" localFKIndex="C3949AB2-9BB7-A747-B70E-C378A76E17FA" name="Licencia_Tripulante_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:16:22 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>Tripulante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE954857-0774-4272-BFEC-4378CC51CEFE</referredTableID>
+<keyObject>E4B0B83A-65CB-AAA5-5034-ABE680E854EE</keyObject>
+<referredKeyID>E4B0B83A-65CB-AAA5-5034-ABE680E854EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTripulante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

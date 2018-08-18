@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6572DEB9-7D0E-20A4-BC69-3DC0A573F0E6" name="PermisoXCargo">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-27 20:58:54 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cargo_idCargo" id="EFC79D36-AD41-7654-2862-AFFF975FCA51">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-27 21:00:59 UTC</createdTime>
+<commentInRDBMS>id del cargo al que se le dara el permiso</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AECF4AB5-F9F1-C146-4367-372CDF6A4E05" referredColumn="57FB6E50-B58C-F229-E64A-F3E9103A080E"/>
+</associations>
+</Column>
+<Column name="Permiso_idPermiso" id="BB44982E-5431-6B3E-48A7-6F55BA327F77">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-27 21:01:12 UTC</createdTime>
+<commentInRDBMS>id del permiso como admin, consultor, etc</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6F918CD-E6C4-9A0D-E5C6-AC06A049A452" referredColumn="3B5C1329-884E-257C-3367-A7866B1E896D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9848145E-7778-88DA-9E47-396870465C11" name="PermisoXCargo_Cargo_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-27 21:00:59 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC79D36-AD41-7654-2862-AFFF975FCA51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E38F6983-0010-12CE-79B0-5F73368D86EB" name="PermisoXCargo_Permiso_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-27 21:01:12 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB44982E-5431-6B3E-48A7-6F55BA327F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

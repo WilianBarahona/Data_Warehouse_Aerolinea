@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50534F6C-FE85-66B3-DCE2-70A208B28FA5" containerWithKeyObject="877A0B8B-D143-C67D-6FC6-0C35574621C8" localFKIndex="B9512FAE-7C64-1A79-58B6-1A538DF85C9A" name="FacturaxFormaPago_Factura_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:22:24 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>Factura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DF31C2E-1228-8B23-4197-3F6871F5322B</referredTableID>
+<keyObject>BB469608-7D92-9E7E-DCE3-B9CEF6F7E217</keyObject>
+<referredKeyID>BB469608-7D92-9E7E-DCE3-B9CEF6F7E217</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idFactura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

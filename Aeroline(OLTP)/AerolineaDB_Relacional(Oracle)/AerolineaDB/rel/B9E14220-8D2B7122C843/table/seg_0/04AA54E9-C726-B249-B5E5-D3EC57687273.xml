@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04AA54E9-C726-B249-B5E5-D3EC57687273" name="DestinoOrigenRuta">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:50:47 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDestinoOrigenRuta" id="14B3C05C-61C8-8420-6ADA-2DA748A9DFAE">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 07:10:05 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad_idCiudadOrigen" id="E8A245FA-FB00-57F1-12D1-29A9FAF9056E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:51:27 UTC</createdTime>
+<commentInRDBMS>Codigo ciudad origen</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F0D84F6-6BBC-919F-B6D4-66DE980E78E4" referredColumn="2F97D3DF-EC47-DFF5-BF3D-B1967DC68568"/>
+</associations>
+</Column>
+<Column name="Ciudad_idCiudadDestino" id="3236AEFB-C4DA-F6F6-4495-FB9EE6628896">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:51:38 UTC</createdTime>
+<commentInRDBMS>Codigo ciudad destino</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C295818-D714-BB39-51A9-8BBA5EE02DDA" referredColumn="2F97D3DF-EC47-DFF5-BF3D-B1967DC68568"/>
+</associations>
+</Column>
+<Column name="Ruta_idRuta" id="E6DCE564-3129-FB2E-C99B-E7570E1777D8">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:52:26 UTC</createdTime>
+<commentInRDBMS>Llave forane de la relacion entre ruta y DestinoOrigenRuta que almacena la ruta que tiene el destino</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F075813E-662C-AF6E-FF23-BD97768AAE02" referredColumn="F0EC9821-A6F2-9B09-647F-0B0FF4516A42"/>
+</associations>
+</Column>
+<Column name="ordenPuntoEscala" id="0AA3816C-598A-FA80-D61C-C081142B5850">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 16:44:43 UTC</createdTime>
+<commentInRDBMS>Orden de escala de la ruta </commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B82EC1D-D23A-100D-E9D8-A3AE73D99FF9" name="DestinoOrigenRuta_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 07:10:05 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14B3C05C-61C8-8420-6ADA-2DA748A9DFAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E28387C-E476-49CE-E121-5656B34C1353" name="DestinoOrigenRuta_Ciudad_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:51:27 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A245FA-FB00-57F1-12D1-29A9FAF9056E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC65007C-B44C-3925-EF5B-4D7D5F0F571F" name="DestinoOrigenRuta_Ciudad_FKv2">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:51:38 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3236AEFB-C4DA-F6F6-4495-FB9EE6628896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B146CFE6-C90B-3332-B21C-2FCFFF6369CB" name="DestinoOrigenRuta_Ruta_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:52:26 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6DCE564-3129-FB2E-C99B-E7570E1777D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

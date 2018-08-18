@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2249552-F1E2-46BF-345B-75AF3F3898C1" name="Ciudad">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:44:22 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCiudad" id="2F97D3DF-EC47-DFF5-BF3D-B1967DC68568">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:47:25 UTC</createdTime>
+<commentInRDBMS>Codigo de la ciudad</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCiudad" id="6120BB72-0CF3-2CA5-B129-524731B11320">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:47:53 UTC</createdTime>
+<commentInRDBMS>Nombre de la ciudad</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_idPais" id="DA22C4DD-82B4-AB96-7325-8ABF73B719CA">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:45:11 UTC</createdTime>
+<commentInRDBMS>Llave foranea de la relacion entre pais y ciudad que almacena el pais de dicha ciudad</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="229D8768-9DFE-E3F2-6A17-76C22378212D" referredColumn="60578390-5524-5080-35C0-C05A67E665E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EED3B70-D2E8-4F3C-A260-D28B8D8FC848" name="Ciudad_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:47:25 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F97D3DF-EC47-DFF5-BF3D-B1967DC68568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="380AE436-B1C1-4082-31BB-FE527E900636" name="Ciudad_Pais_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 02:45:11 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA22C4DD-82B4-AB96-7325-8ABF73B719CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

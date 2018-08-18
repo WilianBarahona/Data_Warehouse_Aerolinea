@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DC2F04F-9033-3A2B-2EC3-4DDBF195621C" name="Avion">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:01:38 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAvion" id="C7327BB8-E224-D008-7DDE-4E03AAD13C6F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:02:03 UTC</createdTime>
+<commentInRDBMS>Codigo de avion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registro" id="B631B09C-361B-A2DD-162E-A32C1D469B3C">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:02:03 UTC</createdTime>
+<commentInRDBMS>Registro de avion ejemplo YYU-0009-III etc</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidadAsientos" id="86A77A9F-DDDE-B8CD-2F8F-09ED8BDAE15C">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:02:45 UTC</createdTime>
+<commentInRDBMS>Cantidad de asientos disponibles en el avion </commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo_idModelo" id="29375776-97B7-7359-65DC-E08B5145ED46">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:04:42 UTC</createdTime>
+<commentInRDBMS>LLave foranea de la relacion entre avion y modelo que almacena el modelo del avion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48EB65B1-CE58-D21D-E9CD-BCF5A1975639" referredColumn="4D90456F-AF9B-1D55-9B40-1641D4CC1D37"/>
+</associations>
+</Column>
+<Column name="Marca_idMaca" id="BCA52022-FC16-9EFB-5053-7496C17576F1">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:05:59 UTC</createdTime>
+<commentInRDBMS>Llave foranea de la relacion entre marca y avion que almacena la marca del avion</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A4FBA26-C341-2C34-9059-CADCB5684D6B" referredColumn="27ACE50D-9C65-5C21-C67A-81505721805A"/>
+</associations>
+</Column>
+<Column name="pesoMaximoEquipaje" id="3446F311-4256-E0ED-0E17-53C4E0322151">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-08 21:39:26 UTC</createdTime>
+<commentInRDBMS>Peso Maximo de equipaje que soporta el avion en KG</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88D6A23A-30CC-8D9A-D3F3-BEB938B0B27B" name="Avion_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:02:50 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7327BB8-E224-D008-7DDE-4E03AAD13C6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D87250AD-D7BF-9AE8-F314-6C8A45A074F3" name="Avion_Modelo_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:04:42 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29375776-97B7-7359-65DC-E08B5145ED46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="621A76E5-FE48-0836-8162-BC4F5413F215" name="Avion_Marca_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 04:05:59 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCA52022-FC16-9EFB-5053-7496C17576F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="678BC247-96A8-BF81-B3F4-4CFAD38322B4" name="Persona">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:24:39 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersona" id="01F832F1-E1D2-04F9-4E5B-417FDB091F22">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:26:40 UTC</createdTime>
+<commentInRDBMS>Código de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pNombre" id="3301E0A0-4A11-53D8-2CFF-1A90D13CA7F0">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:26:40 UTC</createdTime>
+<commentInRDBMS>Primer nombre de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sNombre" id="A438A445-4E90-0205-AA56-F750C935C99F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:26:40 UTC</createdTime>
+<commentInRDBMS>Segundo nombre de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pApellido" id="D2BEBF21-0BFF-BCB5-8B27-8805CEF4B3A8">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:26:40 UTC</createdTime>
+<commentInRDBMS>Primer apellido de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sApellido" id="89D27BF4-D4DA-1E8A-95D4-A950214BE24D">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:26:40 UTC</createdTime>
+<commentInRDBMS>Segundo apellido de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="821EE0F7-E4C8-C4A6-2D81-0DA00535FA54">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:26:40 UTC</createdTime>
+<commentInRDBMS>Dirección completa de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="D2EDAB4F-B7AE-1984-E993-E7B30C387970">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 23:14:17 UTC</createdTime>
+<commentInRDBMS>Almacena el correo para un posterior login</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F547A54C-70B7-8DAA-3C13-741544F5F386">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 23:14:17 UTC</createdTime>
+<commentInRDBMS>Almacena el password para un posterior login</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacimiento" id="CFF7AF72-0736-D811-EA4A-8400271580B7">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 21:45:52 UTC</createdTime>
+<commentInRDBMS>Fecha de nacimiento de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoCuenta" id="6A5DA702-84AE-396F-D3BF-DA666624A403">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 23:16:26 UTC</createdTime>
+<commentInRDBMS>Estado de la cuenta web si esta activa, bloqueada, inactiva etc</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoCuenta" id="A413CC7E-3FD3-3272-8FBF-F38E2A9470D0">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 23:18:31 UTC</createdTime>
+<commentInRDBMS>Describe a quien le pertence la cuenta a un empleado,  un pasajero o un tripulante E:empleado P:pasajero T:tripulante</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaHoraRegistro" id="99CA6F47-5E22-D695-211B-183B0015BC6E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-03 23:16:26 UTC</createdTime>
+<commentInRDBMS>Fecha y hora en la que se registro una persona en la pagina web</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadoCivil_idEstadoCivil" id="493814E2-2300-FD6F-3960-E035D29196CD">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:52:17 UTC</createdTime>
+<commentInRDBMS>Llave foranea de la relacion de estado civil y persona y almacena el id de estado civil que tiene la persona actualmente</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="511B5BC1-0C8A-C79F-943C-1ED3CF831B7C" referredColumn="6975132A-DE0F-65C9-6257-4AE56EA0FF03"/>
+</associations>
+</Column>
+<Column name="Genero_idGenero" id="46E1B7BA-DCF5-8E93-C919-203D673BDB7E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:53:56 UTC</createdTime>
+<commentInRDBMS>Llave foranea entre persona y genero y almacena el id de genero de la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CF00019-E263-0FFA-B894-B61A5F24C7D6" referredColumn="41EABCE7-19E9-D1B1-0975-5F21300166FC"/>
+</associations>
+</Column>
+<Column name="Pais_idPais" id="6F03514D-9D7C-CEA7-5BB9-1BE781DF3407">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:00:08 UTC</createdTime>
+<commentInRDBMS>Llave foranea entre pais y persona y almacena el pais al que pertenece la persona</commentInRDBMS>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A21399C-2A4C-F3E3-4DCD-3E77A1939B29" referredColumn="60578390-5524-5080-35C0-C05A67E665E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="728167A9-A7AE-89BF-48DB-19DCF2987163" name="Persona_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 03:26:40 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F832F1-E1D2-04F9-4E5B-417FDB091F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15CCEF60-F7AE-6F5A-65AF-9C8E1D9EB9CB" name="correo__UN">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-04-04 16:41:00 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2EDAB4F-B7AE-1984-E993-E7B30C387970"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC8C1F90-ED5F-58D2-0FDF-3433495F7318" name="Persona_EstadoCivil_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:52:17 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="493814E2-2300-FD6F-3960-E035D29196CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7666B118-6381-2DA8-EDCD-06BC45BB91AC" name="Persona_Genero_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 04:53:56 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46E1B7BA-DCF5-8E93-C919-203D673BDB7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2CF43D2-0137-8A82-3C2E-0147A983CBDE" name="Persona_Pais_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-12 05:00:08 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F03514D-9D7C-CEA7-5BB9-1BE781DF3407"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

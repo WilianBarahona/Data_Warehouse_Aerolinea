@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E5A282D-74B9-C2A4-036C-7E90DB7970A9" containerWithKeyObject="E79B064E-5F4E-380A-D7A0-AFE48C5D6873" localFKIndex="B80CA426-86CD-7646-07CE-1BEB0D84A541" name="Deduccion_TipoDeduccion_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-03-10 22:07:35 UTC</createdTime>
+<ownerDesignName>AerolineaDB</ownerDesignName>
+<referredTableLongName>TipoDeduccion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61AE4AB1-DD2C-30D0-2FBD-24F33A7AF5E4</referredTableID>
+<keyObject>A76457C4-4D76-456A-F64F-E0E65F9FF3B7</keyObject>
+<referredKeyID>A76457C4-4D76-456A-F64F-E0E65F9FF3B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTipoDeduccion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
