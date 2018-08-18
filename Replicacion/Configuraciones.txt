@@ -1,16 +1,42 @@
+-----------------------------------------------------------
+configuracion de la replica en sql server 2014 enterprise
+----------------------------------------------------------
+
+--conseptos
+*distribuidor: son los datos que se van a replicar
+*publicador: es la unidad de los datos(es decir todo el conjuto de datos a replicar)
+*suscriptor: receptor de los articulos(datos)
+
+1) Configurar el distribuidor
+2) Configurar el publicador
+3) Configurar los suscriptores
+
+
+
+
 ----------------------------------------------------------------------
 Configuraciones previas y aspectos a tomar en cuenta antes de realizar
 la replicacion
 ----------------------------------------------------------------------
 
-1) Instalar dos instancias de Sql Server en caso de hacer la replica en un solo equipo
+1) Instalar dos instancias de Sql Server en caso de hacer la replica en un solo equipo,
+   en caso de tener dos equipos la replicacion se puede hacer mediante la conexion a travez de red. 
 2) Desactivar Windows defender y el Firewall 
 3) Crear una carpeta compartida para todos los usuarios del equipo
+4) Saber el nombre del equipo y el nombre del usuario en el que hemos iniciado secion
 
------------------------------------------------------------
-configuracion de la replica en sql server 2014 enterprise
-----------------------------------------------------------
+\\DESKTOP-ICGFKM3\Replication
 
-1) Configurar el distribuidor
-2) Configurar el publicador
-3) Configurar los suscriptores
+--Nombre del equipo
+DESKTOP-ICGFKM3
+
+--Nombre del usuario 
+Lenovo Thinkpad Edge
+
+-- login para sql server
+login: sa
+password: la utlizada al instalar sql server
+
+
+
+
