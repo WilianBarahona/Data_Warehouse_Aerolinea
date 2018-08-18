@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1EFE064-596F-0AE2-97C8-7C3DE9F5A08F" name="DIM_TIEMPO">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:26:49 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTIEMPO" id="3E205B44-3DA9-DCF1-2189-A8993A0E0BE5">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:29:53 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIA" id="E17D0FF2-0CC2-8631-1BE3-7A8EECA0A268">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:29:53 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMANA" id="F511734D-8883-6818-E002-D2107D2700FA">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:29:53 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES" id="4DBCB400-0E1D-CF36-B057-4EE78CF2FDFB">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:29:53 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRIMESTRE" id="5A8ADFE5-6AAC-B0AC-0671-4F5FB89576AC">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:29:53 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO" id="42A1CB24-C08D-81C9-58A0-73E1F586C15B">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:29:53 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A30F120-3307-5292-574E-91F8CC674358" name="DIM_TIEMPO_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:29:59 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E205B44-3DA9-DCF1-2189-A8993A0E0BE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

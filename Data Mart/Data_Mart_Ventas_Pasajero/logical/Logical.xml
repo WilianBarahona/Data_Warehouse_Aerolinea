@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BDF23D5A-7606-86C5-7AF8-526F8436FFFB" mainViewID="B9CF9735-28E8-E9F3-2BB9-0C8503D035C1">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 22:57:23 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

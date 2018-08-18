@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A04DCD9B-E45B-4ED0-C6CD-3CEB6312CDE4" name="DIM_CIUDADDESTINO">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:25:53 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCIUDADDESTINO" id="7DA638DA-9834-7B10-8B26-6C223BF5A751">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:26:34 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD_DESTINO" id="B7AE2F7A-1A43-AEAC-602C-1F1B253B553E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:26:34 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01CA1FEB-E1ED-D765-2333-54DCAD296087" name="DIM_CIUDADDESTINO_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:26:42 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DA638DA-9834-7B10-8B26-6C223BF5A751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

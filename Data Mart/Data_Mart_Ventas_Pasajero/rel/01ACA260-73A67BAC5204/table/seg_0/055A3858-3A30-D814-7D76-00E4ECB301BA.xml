@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="055A3858-3A30-D814-7D76-00E4ECB301BA" name="HECHOS_VUELOS">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:20:50 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDVUELO" id="F33619A1-BB36-5479-000D-2D176587FF39">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:30:40 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA781BB8-8338-430E-9945-45175F24D529" referredColumn="F0760438-9CD8-5DEE-6106-86BDA3D5BEEA"/>
+</associations>
+</Column>
+<Column name="IDPASAJERO" id="C4AF42F3-8495-B919-61ED-AA09FBBD979A">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:31:23 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71AAEA7B-6088-77F3-01C1-F6C3B89A2667" referredColumn="3185D941-086A-BB71-8451-01AFC9D1123A"/>
+</associations>
+</Column>
+<Column name="TIEMPO_IDTIEMPO" id="A8F83999-5C8D-1AB6-FCE0-11E4111112FF">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:31:55 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CE4DF5A-5451-D6A9-3131-1C0B9D381C4F" referredColumn="3E205B44-3DA9-DCF1-2189-A8993A0E0BE5"/>
+</associations>
+</Column>
+<Column name="IDCIUDADORIGEN" id="5546E4AF-AC0F-8806-389C-E20141C058BB">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:32:08 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50C0F714-7DA1-123B-DF51-230850D8B346" referredColumn="CAD400D6-1CB3-2266-044B-A58142687BB7"/>
+</associations>
+</Column>
+<Column name="IDCIUDADDESTINO" id="05C330D3-429A-72B4-3386-07DCA9ECF404">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:32:18 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7760119A-19D2-A8CB-D755-9DBCE058A329" referredColumn="7DA638DA-9834-7B10-8B26-6C223BF5A751"/>
+</associations>
+</Column>
+<Column name="VENTAS" id="7DFD2BF1-DF0C-1C68-F636-530537767052">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:34:09 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53975745-1BAB-9342-2EB5-60A7DF5EE02F" name="DIM_VUELOS_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:30:40 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F33619A1-BB36-5479-000D-2D176587FF39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="175C8D32-737A-26E4-00A7-F65C2345525B" name="DIM_PASAJEROS_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:31:23 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4AF42F3-8495-B919-61ED-AA09FBBD979A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A976D96A-911F-C951-C72A-863E873E6B7E" name="DIM_TIEMPO_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:31:55 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8F83999-5C8D-1AB6-FCE0-11E4111112FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="734A8346-A015-ED33-05C5-610AEA467895" name="DIM_CIUDADORIGEN_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:32:08 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5546E4AF-AC0F-8806-389C-E20141C058BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D40CE50-171E-4FAD-2E0E-B29F1A2B495A" name="DIM_CIUDADDESTINO_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:32:18 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05C330D3-429A-72B4-3386-07DCA9ECF404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A461FEDA-A4F4-15E0-7716-DD111DB2058B" name="DIM_VUELOS">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:21:16 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDVUELO" id="F0760438-9CD8-5DEE-6106-86BDA3D5BEEA">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:22:46 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTRO_AVION" id="31A3231D-7C33-3DFA-D732-A0226F62EF0F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:22:46 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PILOTO" id="1143782E-2804-6BA4-922B-88E664FC626E">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:22:46 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA340F88-4436-C137-478E-A3E0ECA0D351" name="DIM_VUELOS_PK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:22:46 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0760438-9CD8-5DEE-6106-86BDA3D5BEEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

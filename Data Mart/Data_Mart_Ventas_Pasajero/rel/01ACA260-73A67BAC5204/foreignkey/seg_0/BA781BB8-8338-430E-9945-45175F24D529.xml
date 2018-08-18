@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA781BB8-8338-430E-9945-45175F24D529" containerWithKeyObject="055A3858-3A30-D814-7D76-00E4ECB301BA" localFKIndex="53975745-1BAB-9342-2EB5-60A7DF5EE02F" name="DIM_VUELOS_FK">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 23:30:40 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<referredTableLongName>DIM_VUELOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A461FEDA-A4F4-15E0-7716-DD111DB2058B</referredTableID>
+<keyObject>DA340F88-4436-C137-478E-A3E0ECA0D351</keyObject>
+<referredKeyID>DA340F88-4436-C137-478E-A3E0ECA0D351</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDVUELO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

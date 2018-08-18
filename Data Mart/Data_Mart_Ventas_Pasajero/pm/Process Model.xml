@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="647DE7D4-D4B6-1C88-1981-74880B64BF6F">
+<createdBy>Lenovo Thinkpad Edge</createdBy>
+<createdTime>2018-08-18 22:57:24 UTC</createdTime>
+<ownerDesignName>Data_Mart_Ventas_Pasajero</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
